@@ -1,0 +1,78 @@
+
+
+  .task{
+    font-family: 'Roboto';
+    border-radius: 8px;
+    transition: 450ms;
+    cursor: pointer;
+  }
+
+  .title{
+      color: #5A3A3A;
+      font-size: 26px;
+      font-weight: bold;
+  }
+
+
+
+  .description{
+    color: #fffffffd;
+    font-family: Sans;
+  }
+
+  .info-container{
+    width: 100%;
+    max-width: 1140px;
+  }
+
+
+  .checkcontainer{
+    margin: 0;
+    width: 90px;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]{
+    display: none;
+  }
+
+  .checkmark{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .checked{
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    background-color: #ffff;
+    transition: 450ms;
+  }
+
+  input[type="checkbox"]:checked ~ .checkmark > .checked{
+    width: 30px;
+    height: 30px;
+  }
+
+  @media (max-width: 820px){
+      .info-container{
+        margin-left: 30px;
+    }
+  }
+  @media (max-width: 457px){
+    .title{
+      font-size: 17px;
+  }
+  .description{
+    font-size: 13px;
+}
+  }
+
+

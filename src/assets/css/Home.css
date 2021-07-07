@@ -1,0 +1,54 @@
+
+.logo{
+  color: #ACACAC!important;
+}
+
+.logo-text{
+  color: #656565!important;
+}
+
+.create-task{
+  font-family: 'Roboto';
+  background-color: #7F7FD5;
+  border-radius: 8px;
+  transition: 450ms;
+  cursor: pointer;
+}
+
+.date-container{
+  color: #B4B4B4;
+  display: flex;
+  align-items: center;
+}
+
+.date-container i{
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.input-custom{
+  color: #ACA6A6;
+  font-weight: 600;
+}
+
+
+.update-button{
+  background-color: transparent;
+  color: #443E3E;
+  font-family: Roboto;
+  font-weight: 500;
+  border-radius: 17px;
+  width: 100%;
+  max-width: 400px;
+  height: 35px;
+  transition: 450ms;
+  outline: none;
+}
+
+
+
+.plus{
+  font-size: 50px;
+  font-weight: 300;
+  color: #ffff;
+}
