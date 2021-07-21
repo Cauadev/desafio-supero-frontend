@@ -1,4 +1,3 @@
-
 import ReactDOM from 'react-dom';
 import './assets/css/global.css';
 import Home from './views/Home';

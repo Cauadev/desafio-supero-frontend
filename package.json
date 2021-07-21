@@ -1,7 +1,6 @@
 {
-  "name": "supero",
+  "name": "supero-corrigido",
   "version": "0.1.0",
-  "author": {"email": "cauadev@gmail.com", "name": "Cauã Nunes","url": "https://github.com/cauadev"},
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -11,7 +10,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "sweetalert2": "^11.0.18",
+    "save": "^2.4.0",
+    "sweetalert2": "^11.0.19",
     "sweetalert2-react-content": "^4.1.0",
     "web-vitals": "^1.1.2"
   },
